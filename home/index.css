@@ -1,0 +1,172 @@
+@media screen and (min-width:480px) {
+    .mile4 {
+        display: none !important;
+    }
+
+    .mob-studyMaterial {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    .head {
+        flex-wrap: nowrap !important;
+        background-color: #ffffff4f !important;
+    }
+
+    .web-studyMaterial {
+        display: none !important;
+    }
+
+    .mob-studyMaterial {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .sub-title {
+        font-size: 18px !important;
+        line-height: 38px !important;
+        text-align: end;
+    }
+
+    .prefix-text {
+        font-size: 48px !important;
+        height: 36px !important;
+    }
+
+    .firstImg {
+        margin-top: -80px !important;
+        height: 265px !important;
+    }
+
+    .menu {
+        margin: 0px 8px 5px 0px !important;
+    }
+
+    #Empower {
+        margin-top: 0 !important;
+        align-items: flex-end !important;
+        top: -134px !important;
+        padding-bottom: 0 !important;
+        gap: 0 !important;
+    }
+
+    .paragraph {
+        width: 100% !important;
+    }
+
+    .content2 {
+        width: 99% !important;
+    }
+
+    .timeline {
+        width: 100% !important;
+        margin: 0 !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .timeline__event__content {
+        padding: 20px 34px !important;
+    }
+
+    .timeline__event--type1 {
+        width: 100% !important;
+    }
+
+    .timeline__event--type2 {
+        width: 100% !important;
+        right: auto !important;
+    }
+
+    .event__date {
+        width: 100% !important;
+    }
+
+    .firstPara {
+        right: auto !important;
+    }
+
+    .secondPara {
+        position: initial !important;
+        right: auto !important;
+    }
+
+    .thirdPara {
+        right: auto !important;
+    }
+
+    .process {
+        display: flex !important;
+        align-items: flex-start !important;
+        justify-content: center !important;
+        flex-direction: column !important;
+        padding: 0 !important;
+    }
+
+    .process .phase {
+        width: 100% !important;
+    }
+
+    .process .phase label {
+        width: 300px !important;
+        padding: 1rem !important;
+    }
+
+    .process .milestone label {
+        top: -76px !important;
+    }
+
+    .process .phase .popup label {
+        width: 10px !important;
+        height: 10px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        transform: scale(1.0) !important;
+    }
+
+    #Scrolled {
+        position: absolute;
+        padding: 0px;
+        display: flex;
+        z-index: 11;
+        top: -17px !important;
+        left: -24px !important;
+        width: 115px;
+        height: auto;
+    }
+
+    .menuDiv {
+        padding: 16px 30px 18px 30px !important;
+        height: 80px !important;
+    }
+
+    .one {
+        width: 100% !important;
+        left: 0 !important;
+        text-align: center !important;
+        padding: 0px !important;
+    }
+
+
+    .fifth {
+        padding: 30px 0px 135px 0px !important;
+    }
+
+    .wrap-heading {
+        display: flex;
+        flex-direction: column !important;
+        gap: 8px !important;
+    }
+
+    .wrap-heading h2 {
+        font-size: 28px !important;
+    }
+
+    .wrap-heading .fancy-text-heading {
+        /* font-size: 30px !important; */
+    }
+}
