@@ -66,12 +66,6 @@
 
 
 
-
-
-
-
-
-
 /* ---ADDITIONAL------- */
 
 @media screen and (max-width:480px) {
@@ -219,4 +213,28 @@
     .fifth {
         padding: 30px 0px 135px 0px !important;
     }
+}
+
+
+
+/* ***************DESKTOP SITE**************** */
+
+.mobile-desktop-mode .nav-panel .active {
+    width: 500px !important;
+}
+
+.mobile-desktop-mode .logo-nav {
+    width: 410px !important;
+}
+
+.mobile-desktop-mode .headDiv_Sec {
+    flex-wrap: nowrap !important;
+}
+
+#Scrolled {
+    position: relative !important;
+}
+
+.mobile-desktop-mode .menu {
+    padding: 22px 20px 0px 0px !important;
 }

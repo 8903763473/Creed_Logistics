@@ -170,3 +170,62 @@
         /* font-size: 30px !important; */
     }
 }
+
+
+/* *************************DESKTOP SITE************************** */
+
+
+.mobile-desktop-mode .web-studyMaterial {
+    width: 900px !important;
+}
+
+.mobile-desktop-mode .paragraph {
+    width: 90% !important;
+}
+
+.mobile-desktop-mode .fadeInRight {
+    left: 57% !important;
+}
+
+.mobile-desktop-mode .process {
+    padding: 0 !important;
+}
+
+.mobile-desktop-mode .firstImg {
+    height: 580px !important;
+    margin-top: -215px !important;
+    background-size: 100% 580px !important;
+}
+
+.mobile-desktop-mode #Empower {
+    margin-top: 180px !important;
+}
+
+.mobile-desktop-mode .one .elementor-column-gap-default {
+    flex-direction: column !important;
+}
+
+.mobile-desktop-mode .head {
+    flex-wrap: nowrap !important;
+}
+
+.mobile-desktop-mode .menu {
+    padding: 22px 20px 0px 0px !important;
+}
+
+.mobile-desktop-mode .nav-panel .mobile-menu-alignment-left .active {
+    width: 570px !important;
+}
+
+.mobile-desktop-mode .wrap-logo-nav {
+    width: 500px !important;
+}
+
+
+.mobile-desktop-mode .nav-panel .active {
+    width: 500px !important;
+}
+
+.mobile-desktop-mode .logo-nav {
+    width: 410px !important;
+}

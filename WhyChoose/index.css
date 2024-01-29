@@ -187,3 +187,39 @@
         text-align: center !important;
     }
 }
+
+
+/* ***********************DESKTOP SITE*************************** */
+
+.mobile-desktop-mode .head {
+    flex-wrap: nowrap !important;
+}
+
+.mobile-desktop-mode .firstimage {
+    height: 600px !important;
+}
+
+.mobile-desktop-mode .menu {
+    padding: 22px 20px 0px 0px !important;
+}
+
+.headImg {
+    width: 100% !important;
+}
+
+.mobile-desktop-mode .menuDiv {
+    height: 140px !important;
+}
+
+.mobile-desktop-mode .scrolledLogo {
+    height: 100px !important;
+}
+
+
+.mobile-desktop-mode .nav-panel .active {
+    width: 500px !important;
+}
+
+.mobile-desktop-mode .logo-nav {
+    width: 410px !important;
+}
