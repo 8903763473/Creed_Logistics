@@ -64,8 +64,6 @@
     }
 }
 
-
-
 /* ---ADDITIONAL------- */
 
 @media screen and (max-width:480px) {
@@ -219,22 +217,71 @@
 
 /* ***************DESKTOP SITE**************** */
 
-.mobile-desktop-mode .nav-panel .active {
-    width: 500px !important;
-}
 
-.mobile-desktop-mode .logo-nav {
-    width: 410px !important;
-}
+@media (min-width: 767px) and (max-width: 1000px) {
+    .headDiv_Sec {
+        flex-wrap: nowrap !important;
+        width: 100% !important;
+    }
 
-.mobile-desktop-mode .headDiv_Sec {
-    flex-wrap: nowrap !important;
-}
+    #Scrolled {
+        position: relative !important;
+    }
 
-#Scrolled {
-    position: relative !important;
-}
+    .menu {
+        padding: 22px 20px 0px 0px !important;
+    }
 
-.mobile-desktop-mode .menu {
-    padding: 22px 20px 0px 0px !important;
+    .head {
+        flex-wrap: nowrap !important;
+    }
+
+    .nav-panel {
+        width: 500px !important;
+    }
+
+    .logo-nav {
+        width: 410px !important;
+    }
+
+    .menuDiv {
+        padding: 10px;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .menuDiv .elementor-container {
+        padding: 10px !important;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100% !important;
+    }
+
+    .menuDiv .elementor-column .elementor-col-100 .elementor-top-column .elementor-element .elementor-element-e7bbb2b {
+        padding: 10px !important;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .elementor-element .elementor-element-0f7e6f4 .elementor-widget__width-auto .elementor-widget .elementor-widget-image {
+        padding: 10px !important;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    #Scrolled {
+        top: 0px !important;
+    }
+
 }

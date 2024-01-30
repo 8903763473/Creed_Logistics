@@ -33,9 +33,6 @@
 }
 
 
-
-
-
 /* ----------------ADDITIONAL-------------- */
 
 @media screen and (max-width:480px) {
@@ -190,30 +187,32 @@
 
 /* ***********************DESKTOP SITE*************************** */
 
-.mobile-desktop-mode .head {
-    flex-wrap: nowrap !important;
-}
+@media (min-width: 767px) and (max-width: 1000px) {
+    .head {
+        flex-wrap: nowrap !important;
+    }
 
-/* .mobile-desktop-mode .menuDiv { */
-/* background: #0a0d20 !important; */
-/* } */
+    .menu {
+        padding: 22px 20px 0px 0px !important;
+    }
 
-.mobile-desktop-mode .menu {
-    padding: 22px 20px 0px 0px !important;
-}
+    .initialImage {
+        top: -153px !important;
+    }
 
-.mobile-desktop-mode .initialImage {
-    top: -153px !important;
-}
+    .IconHide {
+        position: relative !important;
+    }
 
-.IconHide {
-    position: relative !important;
-}
 
-.mobile-desktop-mode .nav-panel .active {
-    width: 500px !important;
-}
+    .nav-panel {
+        width: 500px !important;
+    }
 
-.mobile-desktop-mode .logo-nav {
-    width: 410px !important;
+    .logo-nav {
+        width: 410px !important;
+    }
+    #Scrolled {
+        top: 0px !important;
+    }
 }

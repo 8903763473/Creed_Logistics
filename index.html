@@ -31,9 +31,15 @@
 
 
     <script>
-        if (/(android|iphone|ipad|ipod|iemobile|opera mini)/i.test(navigator.userAgent) && window.innerWidth >= 980) {
-            document.body.classList.add('mobile-desktop-mode');
-        }
+        setInterval(() => {
+            if (window.innerWidth >= 480 && window.navigator.userAgent.includes("Mobile")) {
+                document?.body?.classList?.add('mobile-desktop-mode');
+                console.log('Desktop Site View');
+            } else {
+                document?.body?.classList?.remove('mobile-desktop-mode');
+                console.log('normal View');
+            }
+        }, 1000)
     </script>
 
     <script type="text/javascript">
@@ -794,7 +800,8 @@
                                                             <div
                                                                 class="elementor-widget-wrap elementor-element-populated">
                                                                 <div class="elementor-element elementor-element-0f7e6f4 elementor-widget__width-auto elementor-widget elementor-widget-image"
-                                                                style="width: 100% !important;" data-id="0f7e6f4" data-element_type="widget"
+                                                                    style="width: 100% !important;" data-id="0f7e6f4"
+                                                                    data-element_type="widget"
                                                                     data-widget_type="image.default">
                                                                     <div class="elementor-widget-container"
                                                                         style="position: relative;z-index: 1;padding: 0;"

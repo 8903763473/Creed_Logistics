@@ -32,9 +32,15 @@
 
 
     <script>
-        if (/(android|iphone|ipad|ipod|iemobile|opera mini)/i.test(navigator.userAgent) && window.innerWidth >= 980) {
-            document.body.classList.add('mobile-desktop-mode');
-        }
+        setInterval(() => {
+            if (window.innerWidth >= 480 && window.navigator.userAgent.includes("Mobile")) {
+                document?.body?.classList?.add('mobile-desktop-mode');
+                console.log('Desktop Site View');
+            } else {
+                document?.body?.classList?.remove('mobile-desktop-mode');
+                console.log('normal View');
+            }
+        }, 1000)
     </script>
 
 
