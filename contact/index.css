@@ -212,7 +212,46 @@
     .logo-nav {
         width: 410px !important;
     }
+
     #Scrolled {
         top: 0px !important;
+    }
+}
+
+
+
+
+
+@media screen and (min-width:480px) {
+
+    .footAddress {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    .footAddress {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        flex-direction: column !important;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1000px) {
+    .footAddress {
+        flex-wrap: nowrap !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .footDiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
